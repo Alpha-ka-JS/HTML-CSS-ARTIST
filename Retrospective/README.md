@@ -17,4 +17,4 @@
 
 # 회차
 
-* [1회차](https://github.com/Alpha-ka-JS/HTML-CSS-ARTIST/blob/master/Retrospective/1%EC%A3%BC%EC%B0%A8.md) 
+* [1회차](./1주차.md) 
