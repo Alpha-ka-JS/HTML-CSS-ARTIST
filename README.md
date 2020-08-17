@@ -16,7 +16,7 @@
 * Lee Jehwan([LeeJehwan](https://github.com/LeeJehwan))
 * Jeong Sungwon([sungwon2054](https://github.com/sungwon2054))
 * Insert your name([hobbang2](https://github.com/hobbang2))
-* Insert your name([hyeonjin](https://github.com/hamjins))
+* Lim Hyeonjin([hamjins](https://github.com/hamjins))
 
 # <a name="study-schedule"></a>Study Schedule
 회차 | 일정 | 진도
