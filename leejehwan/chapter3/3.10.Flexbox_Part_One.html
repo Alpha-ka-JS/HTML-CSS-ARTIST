@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      body {
+        height: 100vh;
+        /* body의 크기가 작아서 align-items가 안된다. */
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        /* justify-content: flex-start; */
+        /* justify-content: flex-end; */
+        /* justify-content: space-evenly; */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        align-items: center;
+        /* align-items: flex-start; */
+        /* align-items: flex-end; */
+        /* align-items: stretch; */
+        /* stretch는 자식의 height가 없어야 가능 */
+        /* justify-content: main axis, align-items:cross axis */
+      }
+      div {
+        width: 300px;
+        height: 300px;
+        background-color: teal;
+      }
+      #second {
+        background-color: wheat;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <div id="second"></div>
+    <div></div>
+  </body>
+</html>
