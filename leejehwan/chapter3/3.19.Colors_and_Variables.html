@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      /* css custom properties */
+      :root {
+        --main-color: #490ee3;
+        --default-border: 1px solid var(----main-color);
+      }
+      body {
+        height: 1000vh;
+        margin: 20px;
+      }
+      p {
+        /* color: #fcfcfc; */
+        /* color: rgb(252, 206, 0); */
+        background-color: var(--main-color);
+      }
+      a {
+        color: var(--main-color);
+        border: var(--default-border);
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos dolor
+      distinctio eum aliquid voluptas consectetur minus dolorem sit molestiae
+      quo deleniti similique adipisci, quidem blanditiis delectus sint. Saepe,
+      reiciendis tempore.
+    </p>
+    <div>
+      <a href="#">website</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 20px;
+      }
+      span {
+        color: tomato;
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      p span {
+        /* p의 자식 span  */
+        color: teal;
+      }
+      div > span {
+        /* direct children */
+        text-decoration: underline;
+      }
+      p + span {
+        /* p의 바로 다음 span */
+        color: white;
+      }
+      p ~ span {
+        /* p 뒤의 형제중 span */
+        color: teal;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>hello</span>
+      <p>
+        Lorem, ipsum dolor sit aerendis. Reprehenderit assumenda fuga natus
+        architecto repellat dolore? <span>inside</span>
+      </p>
+      <span>hello</span>
+      <span>hello</span>
+      <address>sss</address>
+      <span>hello</span>
+    </div>
+  </body>
+</html>

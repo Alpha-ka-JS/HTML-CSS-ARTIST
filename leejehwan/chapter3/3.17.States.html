@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 20px;
+      }
+      button {
+        border: 1px solid gray;
+        background-color: white;
+        width: 80px;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      /* active: 마우스로 누르고 있는 상태 */
+      button:active {
+        background-color: tomato;
+      }
+      /* hover: 마우스가 올라간 상태 */
+      button:hover {
+        background-color: violet;
+      }
+      button:focus {
+        background-color: teal;
+      }
+      input:focus {
+        background-color: teal;
+      }
+      a:visited {
+        color: tomato;
+      }
+      a:hover {
+        color: teal;
+      }
+      a:focus {
+        color: thistle;
+      }
+      a:active {
+        color: yellow;
+      }
+      /* focust-within: focused인 자식을 가진 부모 엘리먼트에 적용 */
+      form {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      form:focus-within {
+        border-color: seagreen;
+      }
+      form:hover input:focus {
+        background-color: tan;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button>hello</button>
+      <input type="text" />
+      <input type="text" />
+      <a href="https://apple.com">go to apple</a>
+    </div>
+    <form>
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+    </form>
+  </body>
+</html>

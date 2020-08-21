@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 20px;
+      }
+      div {
+        width: 200px;
+        height: 200px;
+        background-color: wheat;
+        position: relative;
+        /* position: static;  박스를 처음 위치하는 곳에 두는것 */
+      }
+      .green {
+        background-color: teal;
+        height: 100px;
+        width: 100px;
+        /* 부모 기준이 아니라 가장 가까운 relative 부모를 기준으로 움직임 */
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        /* position: relative;
+        top: -10px;
+        left: -10px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="green"></div>
+    </div>
+  </body>
+</html>
