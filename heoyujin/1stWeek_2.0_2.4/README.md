@@ -30,6 +30,7 @@ type='password'
 type='color'
 ```
 - 잠의 흔적 
+
 ![](https://i.imgur.com/a9HiZE0.png)
 
 
@@ -45,11 +46,13 @@ type='color'
 ```
 - tag 가 제대로 닫히지 않았는데 .. ! 신기했습니다.
 - `li tag 는 <>인 tag 이기 때문에 그렇다.` 같은 문장처럼, 이유가 궁금한데 아직 정답을 찾지 못했습니다.
+
 ![](https://i.imgur.com/xjKyuHb.png)
 
 #### text size 자동 조절은 어떻게 하지?
 - bounding box 안에서 text size 가 자동으로 조절되는 것도 아직 찾지 못했어요.
 - 원하는 결과는, 화면 크기에 관계없이 저 박스안에 글씨가 딱 맞게 들어가는 것인데 .. !
+
 ![](https://i.imgur.com/Bmowkg9.png)
 
 
