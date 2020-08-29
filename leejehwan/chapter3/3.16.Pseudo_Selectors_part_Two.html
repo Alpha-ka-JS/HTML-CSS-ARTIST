@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 20px;
+      }
+      /* input:optional {
+        border: 1px solid wheat;
+      } */
+      input {
+        border: 1px solid wheat;
+      }
+      input:required {
+        border-color: tomato;
+      }
+      input[type="password"] {
+        background-color: thistle;
+      }
+      /* ~= : contains */
+      input[placeholder~="name"] {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form>
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Last name" />
+        <input type="password" required placeholder="password" />
+      </form>
+    </div>
+  </body>
+</html>

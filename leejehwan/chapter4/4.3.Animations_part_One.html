@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @keyframes superSexyCoinFlip {
+        from {
+          transform: rotateY(0);
+        }
+        to {
+          transform: rotateY(180deg) translateX(100px);
+        }
+      }
+      img {
+        border: 5px solid black;
+        border-radius: 50%;
+        animation: superSexyCoinFlip 3s ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://nomadcoders.co/m.png" width="300px" />
+  </body>
+</html>
