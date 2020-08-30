@@ -1,0 +1,59 @@
+<!-- margin은 box의 border로부터 경계 바깥에 있는 영역 사이즈이다. -->
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>hamlog</title>
+    <style>
+      * {
+        border: 2px solid black;
+      }
+      html {
+        background-color: wheat;
+      }
+      h1 {
+        margin: 0;
+      }
+      body {
+        background-color: thistle;
+        margin: 0;
+        padding: 20px;
+      }
+      div {
+        background-color: salmon;
+        padding: 20px;
+        /* border: 2px solid black; */
+      }
+      /* #를 쓰지 않는 first는 element를 가리키고, 그런 element는 존재하지 않는다. */
+      #first {
+        background-color: whitesmoke;
+        width: 150px;
+        height: 150px;
+      }
+      #second {
+        background-color: teal;
+        width: 100px;
+        height: 100px;
+      }
+      #third {
+        background-color: wheat;
+        width: 50px;
+        height: 50px;
+      }
+      /* padding을 기점으로 width, height가 더 길면 그 block보다 삐져나오게 됨. */
+      span {
+        border-style: dotted;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>hamlog</h1>
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <span>inline</span>
+          <div id="fourth"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
