@@ -11,17 +11,28 @@
 # Table Contents
 * [Team Members](#team-members)
 * [Study Schedule](#study-schedule)
+* [Retrospective](#retrospective)
+* [Project Results](#project-result) 
 
 # <a name="team-members"></a>Team Members
 * Lee Jehwan([LeeJehwan](https://github.com/LeeJehwan))
 * Jeong Sungwon([sungwon2054](https://github.com/sungwon2054))
-* Insert your name([hobbang2](https://github.com/hobbang2))
+* Heo Yujin([hobbang2](https://github.com/hobbang2))
 * Lim Hyeonjin([hamjins](https://github.com/hamjins))
 
 # <a name="study-schedule"></a>Study Schedule
 회차 | 일정 | 진도
 ------|------|-----
 1회|2020/08/16|ch1~ch2
-2회|-|-
-3회|-|-
-4회|-|-
+2회|2020/08/23|ch3~ch4
+3회|2020/08/30|ch5~ch6.20
+4회|2020/09/06|ch6.21-ch7
+
+# <a name="retrospective"></a>회고록
+* [회고 가이드](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/Retrospective/)
+
+# <a name="project-result"></a>Project Results
+* [LeeJehwan](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/leejehwan/clone-project)
+* [sungwon2054](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/jeongsungwon/clone-project)
+* [hobbang2](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/heoyujin/clone-project)
+* [hamjins](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/hamjins/clone-project)
