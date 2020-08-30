@@ -1,0 +1,20 @@
+/* ****************************************************************
+    현재 sample에서는 external CSS가 먼저 적용된다.
+    이유는 CSS는 cascaing 언어이기 때문이다.
+    즉, 절차형이기 때문이다.
+    위에서부터 아래로 차례 적용되는데, 
+    결국 마지막에 있는 코드가 적용되게 된 것이다.
+    inline css code보다, 
+    external css code가 html 상에서 연결이 늦게된다면
+    external css code가 적용될 것이며, 그 반대라면
+    inline css code가 적용된다.
+    inline, external에서 사용하는 properties가 겹치지 않는다면
+    상관없이 잘 적용된다.
+   ***************************************************************
+ */
+h1 {
+  color: blueviolet;
+}
+body {
+  background-color: wheat;
+}

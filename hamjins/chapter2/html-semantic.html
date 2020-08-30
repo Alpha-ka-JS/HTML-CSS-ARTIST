@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>SEMANTIC HTML</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="website">Website</label>
+        <input required id="website" placeholder="Website" type="url" />
+      </div>
+      <div>
+        <label for="name">Name</label>
+        <input required id="name" placeholder="Name" type="text" />
+      </div>
+      <div>
+        <input value="Create Account" type="submit" />
+      </div>
+    </form>
+
+    <form>
+      <!-- 의미가 부여된 semantic tag, div tag 대체 가능 -->
+      <header>
+        <h1>
+          Hamlog
+        </h1>
+      </header>
+      <main>
+        <p>This is my blog.</p>
+      </main>
+      <!-- 꼬릿말을 위한 semantic tag -->
+      <footer>
+        &copy; 2020 H.Z
+      </footer>
+    </form>
+  </body>
+</html>
+
+<!-- class attribute 는 css랑 같이 해봐야 이해하기 쉬우니 일단 넘어가자. -->

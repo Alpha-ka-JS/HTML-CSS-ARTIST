@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>hamlog</title>
+    <style>
+      body {
+        margin: 20px;
+      }
+      /* inline도 padding, margin 모두 가질 수 있다.
+      하지만 margin은 left, right만 가질 수 있는데, 이것은
+      inline은 block과 달리 width, height가 없기 때문이다. */
+      span {
+        background-color: teal;
+        color: white;
+        padding: 20px;
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <span>hello</span>
+    <!-- span간의 사이에 빈공간이 생기게 되는데, 이것은 나중에 다루도록 함. -->
+    <span>hello</span>
+  </body>
+</html>

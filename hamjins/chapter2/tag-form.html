@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>Home - My first website.</title>
+  </head>
+  <body>
+    <form>
+      <!-- label은 input과 함께 이용되어야 함(for, id attr)-->
+      <label for="profile">Profile Photo</label>
+      <!-- self closing tag -->
+      <!-- required attribute를 추가함으로써, form을 검증할 수 있게 됨.-->
+      <input id="profile" accept="image/*,.pdf" type="file" />
+      <input disabled type="color" />
+
+      <label for="first-name">First Name</label>
+      <input id="first-name" required placeholder="Name" type="text" />
+
+      <input required placeholder="Last Name" type="text" />
+      <input required placeholder="Username" type="text" />
+      <input required placeholder="Password" minlength="10" type="password" />
+      <input type="submit" value="Create Account" />
+    </form>
+
+    <form>
+      <!-- type have hour, date, email, range, etc ... -->
+      <label for="website">Website</label>
+      <input id="website" required placeholder="Name" type="url" />
+      <input id="email" required type="email" />
+      <input value="Create Account" type="submit" />
+    </form>
+  </body>
+</html>
+
+<tagname required attrname="attrvalue"
+  >content content content content content</tagname
+>

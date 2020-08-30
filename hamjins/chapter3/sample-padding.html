@@ -1,0 +1,70 @@
+<!-- margin은 box의 border로부터 경계 바깥에 있는 영역 사이즈이다. -->
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>hamlog</title>
+    <style>
+      html {
+        background-color: wheat;
+      }
+      h1 {
+        margin: 0;
+      }
+      body {
+        background-color: thistle;
+        margin: 0;
+        padding: 20px;
+        /* margin-bottom: 90px; */
+        /* margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px; */
+        /*  **********************************************************************
+            20px는 위 아래를 뜻하고, 15px는 왼쪽, 아래쪽을 뜻한다.
+            만약 20px 5px 12px 9px를 준다면,
+            이것은 시계방향으로 의미하게 된다. top, right, bottom, left 순이다.
+            **********************************************************************
+         */
+        /* margin: 20px 15px; */
+      }
+      div {
+        background-color: salmon;
+        padding: 10px;
+        width: 150px;
+        height: 150px;
+      }
+      /* #를 쓰지 않는 first는 element를 가리키고, 그런 element는 존재하지 않는다. */
+      #first {
+        background-color: whitesmoke;
+        width: 150px;
+        height: 150px;
+      }
+      #second {
+        background-color: teal;
+        width: 100px;
+        height: 100px;
+      }
+      #third {
+        background-color: wheat;
+        width: 50px;
+        height: 50px;
+      }
+      #fourth {
+        background-color: blanchedalmond;
+        width: 25px;
+        height: 25px;
+      }
+      /* padding을 기점으로 width, height가 더 길면 그 block보다 삐져나오게 됨. */
+    </style>
+  </head>
+  <body>
+    <h1>hamlog</h1>
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <div id="fourth"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

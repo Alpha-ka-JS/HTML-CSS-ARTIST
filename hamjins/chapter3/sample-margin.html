@@ -1,0 +1,47 @@
+<!-- margin은 box의 border로부터 경계 바깥에 있는 영역 사이즈이다. -->
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>hamlog</title>
+    <style>
+      html {
+        background-color: wheat;
+      }
+      h1 {
+        margin: 0;
+      }
+      body {
+        background-color: thistle;
+        margin: 0;
+        /* margin-bottom: 90px; */
+        /* margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px; */
+        /*  **********************************************************************
+            20px는 위 아래를 뜻하고, 15px는 왼쪽, 아래쪽을 뜻한다.
+            만약 20px 5px 12px 9px를 준다면,
+            이것은 시계방향으로 의미하게 된다. top, right, bottom, left 순이다.
+            **********************************************************************
+         */
+        margin: 20px 15px;
+      }
+      div {
+        /* 앗! 여기는 왜 위아래 margin이 적용이 안될까 ..?
+        div block에 margin을 적용하고 싶었는데,
+        div의 위쪽 margin은 80px로 설정되어 있으나 변경되지 않는다. */
+        margin: 80px 15px;
+        /* block의 border이 같으면, 이 두 margin이 하나의 margin으로 취급된다.
+           이것은 top, bottom에만 일어난다. 
+        */
+        background-color: salmon;
+        width: 150px;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>hamlog</h1>
+    <div></div>
+  </body>
+</html>
