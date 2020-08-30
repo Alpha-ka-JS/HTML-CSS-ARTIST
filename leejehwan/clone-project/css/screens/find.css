@@ -25,6 +25,9 @@
   color: var(--color-mid);
 }
 
+.open-chat {
+  margin-bottom: 100px;
+}
 .open-chat__header {
   display: flex;
   justify-content: space-between;
@@ -50,6 +53,8 @@
 }
 .open-post__hashtags {
   text-transform: uppercase;
+  display: flex;
+  flex-wrap: nowrap;
   opacity: 0.6;
 }
 .open-post__members {

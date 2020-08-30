@@ -20,7 +20,7 @@
   display: flex;
 }
 .more-suggestions__icon {
-  margin-right: 30px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,4 +38,13 @@
 .more-suggestions__icon-image i {
   font-size: 20px;
   color: white;
+}
+.more-suggestions__icon-image img {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+}
+.more-suggestions__icon-text {
+  color: var(--color-mid);
 }
