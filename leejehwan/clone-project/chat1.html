@@ -38,9 +38,7 @@
     </header>
 
     <main class="main-screen main-chat">
-      <div class="chat__timestamp">
-        Tuesday, August 30, 2020
-      </div>
+      <div class="chat__timestamp">Tuesday, August 30, 2020</div>
 
       <div class="message-row">
         <img
@@ -54,7 +52,33 @@
           </div>
         </div>
       </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">What's up?</span>
+            <span class="message__time">21:28</span>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big!</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
