@@ -1,0 +1,12 @@
+@keyframes 이름{
+    from{
+        transform:~~~
+    }
+    to{
+        transform~~
+    }
+}
+
+element{
+    animation : 이름 5s ease-in-out infinite
+}

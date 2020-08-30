@@ -1,0 +1,6 @@
+CSS로 사용자의 화면에 맞춤에 따라 보여주기 가능
+
+media query 사용자의 사이즈, 핸드폰에 따라 CSS 보여주기
+
+orientation : 방향 조절
+

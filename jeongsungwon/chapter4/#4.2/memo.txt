@@ -1,0 +1,9 @@
+border-radius를 50% 주면 원이 된다.
+
+transform: rotateY(90) //y축 기준으로 90도 회전
+        scaleX(2) //  방향으로 2배
+        translateX(-60px) // X방향으로 -60px
+
+transformation은 그 자체만 움직이므로 다른 element들이 알지 못함
+
+CSS 애니메이션은 GPU로 인해 움직임

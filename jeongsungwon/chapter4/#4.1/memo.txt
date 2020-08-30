@@ -1,0 +1,7 @@
+ease in function - 기본브라우저에 어떻게 변할 것인지 말해줌
+
+ - ease in out : 천천히 갔따가 빠르게 갔따가 천천히
+ - linear : 일정한 속도
+ - ease in : 빨라지면서 움직임
+ - ease out : 도착 쯤에 느려짐
+ 
