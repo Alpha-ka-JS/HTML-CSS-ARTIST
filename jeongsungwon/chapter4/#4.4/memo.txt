@@ -1,0 +1,18 @@
+@keyframes 이름{
+    0{
+        transform:~~~
+    }
+    50%{
+        transform~~
+    }
+    100%{
+
+    }
+}
+
+element{
+    animation : 이름 5s ease-in-out infinite
+}
+
+//font-size는 애니메이션 불가
+opactiy: 다 없어졌다가 나타남

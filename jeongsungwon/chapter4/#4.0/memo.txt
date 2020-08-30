@@ -1,0 +1,11 @@
+효과를 주기 위해서는 자스가 필요했지만
+이제는 CSS로 할 수도 있음
+
+Transition - 상태 변화를 애니메이션으로 만듦
+ex)
+transition: background-color 10s ease-in-out, 
+color 5s ease-inout;
+
+ - 바꾸는걸 hover 등 효과를 주려는 거에 바꿀 element를 꼭 작성해야함
+ - 바꿀 element에 적는게 아닌 기본 element에 transition을 작성해야함
+ 
