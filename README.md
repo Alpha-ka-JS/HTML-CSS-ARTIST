@@ -33,6 +33,6 @@
 
 # <a name="project-result"></a>Project Results
 * [LeeJehwan](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/leejehwan/clone-project)
-* [sungwon2054](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/jeongsungwon/clone-project)
+* [sungwon2054](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/jeongsungwon/kokoa/clone-project)
 * [hobbang2](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/heoyujin/clone-project)
 * [hamjins](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/hamjins/clone-project)
