@@ -27,27 +27,63 @@
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span class="screen-header__challenge"> </span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
       </div>
     </haeder>
 
     <main class="main-screen">
-      <div class="find-icons">
-        <div class="find-icons__icon">
+      <div class="icon-row">
+        <div class="icon-row__icon">
           <i class="fas fa-qrcode"></i>
           <span>QR Code</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="far fa-address-book"></i>
           <span>Add by Contacts</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="fas fa-fingerprint"></i>
           <span>Add by ID</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="far fa-envelope"></i>
           <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommend-friends">
+        <h6 class="recommend-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#IU</h5>
+            <h6 class="open-post__hashtag">#iu#friends#uaena</h6>
+            <div class="open-post__members">
+              <img
+                src="https://www.sporbiz.co.kr/news/photo/201905/338342_252308_5742.jpg"
+              />
+              <span class="open-post__member-count">506 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="https://pbs.twimg.com/media/EYEVdxPU8AANQif.jpg" />
+              <div class="open-pos__heart-count">
+                <div><i class="fas fa-heart fa-xs"></i> <span>256</span></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -78,7 +114,9 @@
         </li>
       </ul>
     </nav>
-
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
