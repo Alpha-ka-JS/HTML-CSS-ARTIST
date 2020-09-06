@@ -26,13 +26,13 @@
 1회|2020/08/16|ch1~ch2
 2회|2020/08/23|ch3~ch4
 3회|2020/08/30|ch5~ch6.20
-4회|2020/09/06|ch6.21-ch7
+4회|2020/09/13|ch6.21-ch7
 
 # <a name="retrospective"></a>회고록
 * [회고 가이드](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/Retrospective/)
 
 # <a name="project-result"></a>Project Results
-* [LeeJehwan](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/leejehwan/clone-project)
+* [LeeJehwan](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/leejehwan/kokoa/clone-project)
 * [sungwon2054](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/jeongsungwon/kokoa/clone-project)
 * [hobbang2](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/heoyujin/clone-project)
 * [hamjins](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/hamjins/clone-project)
