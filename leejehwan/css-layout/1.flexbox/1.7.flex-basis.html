@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .father {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+      }
+      .child {
+        /* main axis 에서만 일어난다. */
+        flex-basis: 200px;
+        background-color: peru;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+      }
+      .child:nth-child(2) {
+        background-color: tomato;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="child">1</div>
+      <div class="child">2</div>
+      <div class="child">3</div>
+    </div>
+  </body>
+</html>
