@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+}
+.header {
+  background-color: #2ecc71;
+  grid-column: span 4;
+}
+
+.content {
+  background-color: #3498db;
+  grid-column: 1/-2;
+  grid-row: span 2;
+}
+
+.nav {
+  background-color: #8e44ad;
+  grid-row: span 2;
+}
+.footer {
+  background-color: coral;
+  grid-column: span 4;
+}
