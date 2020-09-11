@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  gap: 5px;
+  color: white;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-auto-rows: 300px;
+  grid-auto-flow: column;
+}
+.item:nth-child(odd) {
+  background-color: #2ecc71;
+}
+
+.item:nth-child(even) {
+  background-color: #3498db;
+}
