@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .father {
+        display: flex;
+        /* Main Axis */
+        justify-content: space-around;
+        /* Cross Axis */
+        height: 100vh;
+      }
+      .child {
+        background-color: peru;
+        width: 200px;
+        height: 200px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+      }
+      .child:nth-child(1) {
+        order: 2;
+      }
+      .child:nth-child(2) {
+        align-self: center;
+        /* default: 0 */
+        order: 3;
+      }
+      .child:nth-child(3) {
+        align-self: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="father">
+      <div class="child">1</div>
+      <div class="child">2</div>
+      <div class="child">3</div>
+    </div>
+  </body>
+</html>
