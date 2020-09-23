@@ -1,0 +1,18 @@
+.box {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  /* 
+  inline-block과 inline의 차이
+  inline은 직선임, box형태가 아니라 width, height를 가질수 없음 (inline은 글씨) 
+  */
+  color: white;
+}
+
+.box:nth-child(2) {
+  margin-left: 10px;
+}
+.box:nth-child(3) {
+  margin-left: 20px;
+}

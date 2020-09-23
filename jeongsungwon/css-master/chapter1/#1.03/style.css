@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 100vh;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background: peru;
+  color: white;
+}

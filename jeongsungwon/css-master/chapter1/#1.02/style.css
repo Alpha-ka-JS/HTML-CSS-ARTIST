@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 100vh;
+}
+.box {
+  width: 200px;
+  background: peru;
+  color: white;
+}
