@@ -1,0 +1,68 @@
+@import "_variables";
+@import "_mixins";
+@import "_buttons";
+
+h2 {
+  color: $bg;
+}
+
+.box {
+  margin: 20px;
+  h2 {
+    color: blue;
+    &:hover {
+      background-color: tomato;
+    }
+  }
+  button {
+    color: red;
+  }
+  &:hover {
+    background-color: green;
+  }
+}
+
+.mixin {
+  // 코드를 조건에 따라 다르게 사용함(함수처럼)
+  a {
+    margin-bottom: 10px;
+    &:nth-child(odd) {
+      @include link("odd");
+    }
+    &:nth-child(even) {
+      @include link("even");
+    }
+  }
+}
+
+.extends {
+  // 많은 property가 겹치지만 일부는 겹치지 않는 경우
+  // 같은 코드를 중복하고 싶지 않게 하기 위해서.
+  a {
+    @extend %button;
+    text-decoration: none;
+  }
+  button {
+    @extend %button;
+    border: none;
+    outline: none;
+  }
+}
+
+// responsive example using minxin
+.responsive {
+  h1 {
+    @include responsive("iphone") {
+      color: red;
+    }
+    @include responsive("iphone-l") {
+      font-size: 100px;
+    }
+    @include responsive("ipad") {
+      color: blue;
+    }
+    @include responsive("ipad-l") {
+      font-size: 100px;
+    }
+  }
+}
