@@ -21,6 +21,7 @@
 * Lim Hyeonjin([hamjins](https://github.com/hamjins))
 
 # <a name="study-schedule"></a>Study Schedule
+
 회차 | 일정 | 진도
 ------|------|-----
 1회|2020/08/16|ch1~ch2
