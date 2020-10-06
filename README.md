@@ -1,4 +1,5 @@
-![GitHub contributors](https://img.shields.io/github/contributors/Alpha-ka-js/HTML-CSS-ARTIST?&color=brightgreen) 
+
+![GitHub contributors](https://img.shields.io/github/contributors/Alpha-ka-js/HTML-CSS-ARTIST?&color=brightgreen)
 ![<Languages>](https://img.shields.io/github/languages/count/Alpha-ka-JS/HTML-CSS-ARTIST?&color=brightgreen) 
 ![<TopLanguages>](https://img.shields.io/github/languages/top/Alpha-ka-JS/HTML-CSS-ARTIST?&color=brightgreen) 
 ![<repoSize>](https://img.shields.io/github/repo-size/Alpha-ka-JS/HTML-CSS-ARTIST) 
