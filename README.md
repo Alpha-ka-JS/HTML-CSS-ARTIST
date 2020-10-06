@@ -9,7 +9,7 @@
     <a href="#">
         <img src="https://img.shields.io/github/repo-size/Alpha-ka-JS/HTML-CSS-ARTIST" /></a>
     <a href="https://github.com/Alpha-ka-JS/HTML-CSS-ARTIST/pulse">
-        <img src="https://img.shields.io/github/commit-activity/m/Alpha-ka-JS/HTML-CSS-ARTIST""></a>
+        <img src="https://img.shields.io/github/commit-activity/m/Alpha-ka-JS/HTML-CSS-ARTIST"></a>
     <a href="#">
         <img src="https://img.shields.io/github/last-commit/Alpha-ka-JS/HTML-CSS-ARTIST"></a>
 </p>
