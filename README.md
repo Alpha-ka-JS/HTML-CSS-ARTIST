@@ -1,12 +1,22 @@
 
-![GitHub contributors](https://img.shields.io/github/contributors/Alpha-ka-js/HTML-CSS-ARTIST?&color=brightgreen)
-![<Languages>](https://img.shields.io/github/languages/count/Alpha-ka-JS/HTML-CSS-ARTIST?&color=brightgreen) 
-![<TopLanguages>](https://img.shields.io/github/languages/top/Alpha-ka-JS/HTML-CSS-ARTIST?&color=brightgreen) 
-![<repoSize>](https://img.shields.io/github/repo-size/Alpha-ka-JS/HTML-CSS-ARTIST) 
-![<CommitActivity>](https://img.shields.io/github/commit-activity/m/Alpha-ka-JS/HTML-CSS-ARTIST) 
-![<LastCommit>](https://img.shields.io/github/last-commit/Alpha-ka-JS/HTML-CSS-ARTIST)
+<p align="center">
+    <a href="https://github.com/Alpha-ka-JS/HTML-CSS-ARTIST/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/Alpha-ka-js/HTML-CSS-ARTIST?&color=brightgreen" /></a>
+    <a href="#" alt="Languages">
+        <img src="https://img.shields.io/github/languages/count/Alpha-ka-JS/HTML-CSS-ARTIST?&color=brightgreen" /></a>
+    <a href="#" alt="TopLanguages">
+        <img src="https://img.shields.io/github/languages/top/Alpha-ka-JS/HTML-CSS-ARTIST?&color=brightgreen" /></a>
+    <a href="#">
+        <img src="https://img.shields.io/github/repo-size/Alpha-ka-JS/HTML-CSS-ARTIST" /></a>
+    <a href="https://github.com/Alpha-ka-JS/HTML-CSS-ARTIST/pulse">
+        <img src="https://img.shields.io/github/commit-activity/m/Alpha-ka-JS/HTML-CSS-ARTIST""></a>
+    <a href="#">
+        <img src="https://img.shields.io/github/last-commit/Alpha-ka-JS/HTML-CSS-ARTIST"></a>
+</p>
+
 
 # [HTML CSS ARTIST](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/)
+
 ![htmlAndCss](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/511px-CSS3_and_HTML5_logos_and_wordmarks.svg.png)
 
 # Table Contents
