@@ -1,0 +1,31 @@
+@import "_variables";
+
+@mixin link($word) {
+  text-decoration: none;
+  display: block;
+  @if $word != "odd" {
+    color: blue;
+  } @else {
+    color: red;
+  }
+}
+
+@mixin responsive($device) {
+  @if $device == "iphone" {
+    @media screen and (min-width: $minIphone) and (max-width: $maxIphone) {
+      @content;
+    }
+  } @else if $device == "ipad" {
+    @media screen and (min-width: $minIpad) and (max-width: $maxIpad) {
+      @content;
+    }
+  } @else if $device == "iphone-l" {
+    @media screen and (min-width: $minIphone) and (max-width: $maxIphone) and (orientation: landscape) {
+      @content;
+    }
+  } @else if $device == "ipad-l" {
+    @media screen and (min-width: $minIpad) and (max-width: $maxIpad) and (orientation: landscape) {
+      @content;
+    }
+  }
+}
