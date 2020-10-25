@@ -1,0 +1,18 @@
+/* https://www.notion.so/hamzzi/1-3-Column-and-Row-51c4bcc11c4548d0b463a908f8c373e9 */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  /* Main Axis */
+  justify-content: space-around;
+  /* Cross Axis */
+  align-items: flex-end;
+  height: 100vh;
+}
+
+.box {
+  background-color: goldenrod;
+  width: 100px;
+  height: 100px;
+  color: blueviolet;
+  margin-bottom: 2px;
+}

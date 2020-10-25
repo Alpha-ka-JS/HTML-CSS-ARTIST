@@ -1,0 +1,15 @@
+/* https://www.notion.so/hamzzi/1-2-Main-Axis-and-Cross-Axis-4aa2848f7f444decada50872bf1b3238 */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: fle;
+  height: 50vh;
+}
+
+.box {
+  background-color: firebrick;
+  width: 100px;
+  height: 100px;
+  color: forestgreen;
+}

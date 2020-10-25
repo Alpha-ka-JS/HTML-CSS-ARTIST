@@ -1,0 +1,11 @@
+/* https://www.notion.so/hamzzi/1-1-First-Rule-of-Flexbox-8f295ff9259f46b1b3fd2fcba2d22661 */
+.wrapper {
+  display: flex;
+}
+
+.box {
+  background-color: lightcoral;
+  width: 100px;
+  height: 100px;
+  color: darkcyan;
+}
