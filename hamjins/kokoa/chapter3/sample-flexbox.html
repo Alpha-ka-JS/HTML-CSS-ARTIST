@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>hamlog</title>
+    <style>
+      body {
+        display: flex; /* 여전히 div는 block이다. 즉, margin, padding 등이 존재한다. */
+        margin: 20px;
+        justify-content: space-around;
+      }
+      /* inline도 padding, margin 모두 가질 수 있다.
+      하지만 margin은 left, right만 가질 수 있는데, 이것은
+      inline은 block과 달리 width, height가 없기 때문이다.
+      따라서, margin의 top, bottom을 적용하고 싶다면
+      inline을 block으로 바꿔주어야 한다. */
+      span {
+        background-color: teal;
+        color: white;
+        /* padding: 20px;
+        margin: 30px; */
+      }
+      div {
+        width: 50px;
+        height: 50px;
+        background-color: teal;
+      }
+      #tomato1,
+      #tomato2,
+      #tomato3 {
+        background-color: tomato;
+      }
+      .tomato {
+        background-color: tomato;
+        color: white;
+      }
+      .teal {
+        background-color: teal;
+      }
+      .btn {
+        padding: 5px 10px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <div></div>
+    <div></div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  background: tomato;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.father {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: wheat;
+  border: 2px solid black;
+}
+
+.inside {
+  background: teal;
+  height: 50px;
+  width: 50px;
+  border: 3px solid white;
+}
+
+.inside-second {
+  width: 100%;
+  border-style: dashed;
+}

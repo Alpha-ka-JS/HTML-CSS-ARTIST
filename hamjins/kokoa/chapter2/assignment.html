@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Create An Account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <form>
+      <h1>Create An Account</h1>
+      <label for="first-name">First Name</label>
+      <input required id="first-name" type="text" placeholder="First Name" />
+      <br />
+
+      <label for="last-name">Last Name</label>
+      <input required id="last-name" type="text" placeholder="Last Name" />
+      <br />
+
+      <label for="email-address">Email</label>
+      <input required id="email-address" type="email" placeholder="Email" />
+      <br />
+
+      <label for="user-name">Username</label>
+      <input required id="user-name" type="text" placeholder="User Name" />
+      <br />
+
+      <label for="password">Password</label>
+      <input
+        required
+        id="password"
+        type="password"
+        placeholder="Password"
+        minlength="10"
+      />
+      <br />
+      <label for="birth-date">Birth Date</label>
+      <input required id="birth-date" type="date" />
+      <br />
+
+      <label for="happy">How happy are you?</label>
+      <input id="happy" type="range" list="tickmarks" />
+      <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+      </datalist>
+      <br />
+
+      <label for="input-color">What is your fav. color?</label>
+      <input id="input-color" type="color" />
+      <br />
+
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+</html>
