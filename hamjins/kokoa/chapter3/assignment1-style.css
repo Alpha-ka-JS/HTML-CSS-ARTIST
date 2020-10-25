@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: tomato;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.package-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: wheat;
+  width: 250px;
+  height: 250px;
+  border-style: solid;
+  border-color: black;
+}
+
+.teal-box {
+  background-color: teal;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+  border-color: white;
+}
+
+.center-box {
+  width: 200px;
+  border-style: dashed;
+}

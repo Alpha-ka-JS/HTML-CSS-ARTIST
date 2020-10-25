@@ -1,0 +1,22 @@
+.screen-header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 25px;
+  padding: var(--horizontal-space);
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.screen-header__icons {
+  position: fixed;
+  right: 25px;
+}
+.screen-header__title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.screen-header__icons span {
+  margin-left: 25px;
+}

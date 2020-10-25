@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+body {
+  width: 300px;
+  height: 600px;
+  padding-left: 20px;
+  padding-right: 30px;
+  border: 5px groove #32b9b5;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.status-playlist {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status-playlist__column:first-child {
+  position: absolute;
+  margin-left: -275px;
+}
+.status-playlist__column:last-child {
+  display: flex;
+  justify-content: center;
+}
+.status-playlist__title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.current-music {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.music-icon__container {
+  width: 100px;
+  height: 100px;
+  border-radius: 15%;
+  background-color: #538f6b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.music-btn__column {
+  border-radius: 20px;
+}
+.music-btn__circle {
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px gray;
+  font-size: larger;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.music-btn--yellow {
+  background-color: #f5cf60;
+}
+.music-btn--red {
+  background-color: #d11c15;
+}
+
+.playlist-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.music-info {
+  display: flex;
+  margin-bottom: 25px;
+}
+.album-image {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border: 3px solid #263049;
+  border-radius: 15%;
+}
+.album-image__orange {
+  background-color: #f7ae0a;
+}
+.album-image__perl {
+  background-color: #32b9b5;
+}
+.album-image__brown {
+  background-color: #c1390d;
+}
+.musician-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.music-name {
+  font-size: larger;
+  font-weight: bold;
+}
+.musician {
+  font-size: smaller;
+  color: gray;
+}
