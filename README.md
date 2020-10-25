@@ -50,7 +50,6 @@
 - [LeeJehwan](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/leejehwan/kokoa/clone-project)
 - [sungwon2054](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/jeongsungwon/kokoa/clone-project)
 - [hobbang2](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/heoyujin/kokoa/clone-project)
-
 - [hamjins](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/hamjins/kokoa/clone-project)
 
 
