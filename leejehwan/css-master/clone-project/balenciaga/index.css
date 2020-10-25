@@ -1,0 +1,208 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: 40px 40px 40px 2fr 80px 1fr;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-collapse: collapse;
+}
+.header > div {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.header__title {
+  font-weight: 700;
+  font-size: 18px;
+}
+.header__search {
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.header__search i {
+  margin-right: 5px;
+}
+.header__search span {
+  font-size: 15px;
+}
+.header__right {
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.header__right i {
+  margin: 5px;
+}
+.header__right span {
+  font-size: 15px;
+  margin: 5px;
+}
+.sale-bar {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 20px;
+}
+.sale-bar__text {
+  overflow: hidden;
+  white-space: nowrap;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.sale-bar i {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.category-bar {
+  border: 1px solid black;
+  display: flex;
+  font-size: 15px;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.item-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.item-photo {
+  width: 100%;
+  height: 100%;
+}
+.item-info {
+  font-size: 13px;
+  display: grid;
+  grid-template:
+    "item-info__price item-info__contact" 40px
+    "item-info__extra item-info__extra" 1fr
+    "item-info__store item-info__shipping" 40px
+    "item-info__detail item-info__detail" 2fr / 1fr 1fr;
+}
+
+.item-info__price {
+  border: 1px solid black;
+  grid-area: item-info__price;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border-right-width: 0px;
+  border-top-width: 0px;
+}
+.item-info__contact {
+  border: 1px solid black;
+  grid-area: item-info__contact;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaaaac;
+  border-left-width: 0px;
+  border-top-width: 0px;
+}
+.item-info__extra {
+  border: 1px solid black;
+  grid-area: item-info__extra;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+.extra-header {
+  font-weight: 700;
+}
+.item-info__store {
+  border: 1px solid black;
+  grid-area: item-info__store;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right-width: 0px;
+}
+.item-info__shipping {
+  border: 1px solid black;
+  grid-area: item-info__shipping;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-info__detail {
+  border: 1px solid black;
+  grid-area: item-info__detail;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  align-items: center;
+  border-bottom-width: 0px;
+}
+.back-button {
+  width: 150px;
+  height: 25px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 20px;
+}
+.fade-box {
+  background-color: #aaaaac;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+}
+.fade__header {
+  border: 1px solid black;
+}
+.fade__contents {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  font-size: 12px;
+  border-top-width: 0px;
+}
+.fade__contents > div {
+  border: 1px solid black;
+  padding: 10px;
+}
+.fade__title {
+  margin: 15px 0;
+}
+.fade__content {
+  margin: 10px 0;
+}
+.email-box {
+  display: flex;
+  border: 1px solid black;
+  padding: 5px;
+  justify-content: space-between;
+}
+.fade__content span {
+  text-decoration: underline;
+  font-weight: 600;
+}
