@@ -1,0 +1,15 @@
+/* https://www.notion.so/hamzzi/1-0-Life-Before-Flexbox-5a26159d68c648ef804ac1f6550f0b95 */
+.box {
+  background-color: lightcoral;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 2px;
+  display: inline-block;
+}
+
+.box:nth-child(2) {
+  margin-left: 35px;
+}
+.box:nth-child(3) {
+  margin-left: 35px;
+}
