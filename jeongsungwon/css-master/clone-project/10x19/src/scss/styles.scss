@@ -1,0 +1,71 @@
+@import 'reset';
+@import '_variables';
+
+body{
+  border: solid 1px $brown;
+}
+main{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  div,
+  marquee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $brown;
+    border: solid .5px $brown
+  }
+  grid-template-columns: 1fr 592px 1fr;
+  grid-template-rows: repeat(12, 1fr);
+  .last{
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  .number{
+    grid-row: auto / span 2;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  .picture{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 12;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .number:hover,
+  .last:hover{
+    background-color: $brown;
+    color:white;
+  }
+  
+}
+
+@media screen and (max-width: 800px){
+  main{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+  }
+  .picture{
+    display: none;
+  }
+  .media__last{
+    grid-column-start: 2;
+  }
+  .text{
+    grid-column: span 2;
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 800px){
+  .media__last{
+    grid-column-start: 3;
+  }
+  .text{
+    grid-column-start: 2;
+    font-size: 1.5em;
+  }
+}
