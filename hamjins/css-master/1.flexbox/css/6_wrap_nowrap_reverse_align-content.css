@@ -1,0 +1,18 @@
+.father {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  flex-wrap: wrap-reverse;
+  align-content: space-between;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  background: darkmagenta;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

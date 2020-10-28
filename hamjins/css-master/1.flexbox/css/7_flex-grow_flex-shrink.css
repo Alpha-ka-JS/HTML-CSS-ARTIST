@@ -1,0 +1,26 @@
+/* https://www.notion.so/hamzzi/1-6-flex-grow-flex-shrink-13834f64bf3844a285f09ed028b4d552 */
+.father {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkcyan;
+  color: white;
+}
+
+.child:nth-child(2) {
+  background: black;
+  flex-grow: 2;
+}
+
+.child:nth-child(3) {
+  flex-grow: 1;
+}

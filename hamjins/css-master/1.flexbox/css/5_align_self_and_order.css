@@ -1,0 +1,27 @@
+/* https://www.notion.so/hamzzi/1-4-align-self-and-order-e466d25d3df54f1c9265a03ed7a504b1 */
+.father {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  background-color: cornflowerblue;
+  color: darkmagenta;
+  font-size: 18px;
+}
+
+.child:nth-child(1) {
+  order: 2;
+}
+
+.child:nth-child(2) {
+  align-self: center;
+  order: 3;
+}
+
+.child:nth-child(3) {
+  align-self: flex-end;
+}

@@ -5,13 +5,13 @@
   /* Main Axis */
   justify-content: space-around;
   /* Cross Axis */
-  align-items: flex-end;
+  align-items: stretch;
   height: 100vh;
 }
 
 .box {
   background-color: goldenrod;
-  width: 100px;
+  /* width: 100px; */
   height: 100px;
   color: blueviolet;
   margin-bottom: 2px;
