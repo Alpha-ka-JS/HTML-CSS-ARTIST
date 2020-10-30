@@ -1,0 +1,22 @@
+/* https://www.notion.so/hamzzi/1-7-flex-basis-a8d9f756ad47461d8d7e641afe0e38cb */
+.father {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.child {
+  flex-basis: 300px;
+  background: darkmagenta;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.child:nth-child(2) {
+  background: darkolivegreen;
+  flex-grow: 1;
+}
