@@ -2,3 +2,13 @@
 project/
 
 node_modules/
+
+#sungwon
+jeongsungwon/css-master/clone-project/**/*.babelrc
+jeongsungwon/css-master/clone-project/**/*gulpfile.babel.js
+jeongsungwon/css-master/clone-project/**/*.json
+jeongsungwon/css-master/clone-project/**/*yarn.lock
+!jeongsungwon/css-master/clone-project/.babelrc
+!jeongsungwon/css-master/clone-project/gulpfile.babel.js
+!jeongsungwon/css-master/clone-project/*.json
+!jeongsungwon/css-master/clone-project/yarn.lock
