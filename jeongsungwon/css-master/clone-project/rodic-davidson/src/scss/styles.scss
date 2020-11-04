@@ -1,0 +1,107 @@
+@import 'reset';
+@import '_variables';
+
+body{
+  margin: 0px 17px;
+}
+.header{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  font-size: 0.9em;
+  width: 100%;
+  background-color: white;
+  .left{
+    width: 25%;
+    font-weight: bold;
+  }
+  .left > span:last-child{
+    color: $gray;
+  }
+  .right{
+    width: 75%;
+  }
+  .right > span {
+    margin-right: 1.2em;
+  }
+  .left:hover{
+    cursor: pointer;
+    span{
+      color: blue;
+    }
+  }
+  .right > span:hover{
+    cursor: pointer;
+    color: blue;
+  }
+}
+
+main{
+  padding-top:25px;
+  display: flex;
+  .main__left{
+    width: 25%;
+  }
+  .main__right {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 70px 25px; 
+    img{
+      width:100%;
+    }
+    span {
+      display: inherit;
+      width: 70%;
+      margin-top: 20px;
+    }
+    img:hover,
+    .img__content:hover{
+      cursor: pointer;
+      color: blue;
+      ~.img__content{
+        color: blue;
+      }
+    }
+    .right__content__title:hover{
+      cursor: pointer;
+      color: blue;
+    }
+    .div__content:hover{
+      .right__content__title{
+        color: blue;
+      }
+      cursor: pointer;
+    }
+  }
+}
+@media (max-width: 700px){
+  main{
+    .main__left{
+      display: none;
+    }
+    .main__right{
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+      width:100%;
+    }
+  }
+}
+@media (min-width: 700px){
+  main{
+    .main__right{
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(auto, 1fr);
+    }
+  }
+}
+@media (min-width: 1022px){
+  main{
+    .main__right{
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+  }
+}
