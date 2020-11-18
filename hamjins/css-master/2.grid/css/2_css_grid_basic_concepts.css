@@ -1,0 +1,17 @@
+/* https://www.notion.so/hamzzi/2-2-CSS-Grid-Basic-Concepts-fe88e29c9c614d48b51952c08e40d55f */
+.father {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 100px 50px 300px;
+  /* column-gap: 10px;
+  row-gap: 10px; */
+  gap: 10px;
+}
+
+.child {
+  flex-basis: 30%;
+  background: peru;
+  color: white;
+  font-size: 50px;
+  align-content: space-around;
+}
