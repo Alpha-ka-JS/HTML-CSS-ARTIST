@@ -1,0 +1,37 @@
+/* https://www.notion.so/hamzzi/2-6-Line-Naming-025b1e0924bf493f8e5dc5c645a20d34 */
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: [first-line] 100px [second-line] 100px [third-line] 100px [fourth-line] 100px [fifth-line] 100px;
+  grid-template-rows: repeat(4, 100px [sexy-line]);
+  /* grid-template-rows: 100px [sexy-line] 100px [sexy-line] 100px [sexy-line] 100px [sexy-line]; */
+}
+
+.header {
+  background-color: #2ecc71;
+  /* grid-column: 1 / 5; */
+  /* 여기서 -1을 하면 왜 한 줄 더 추가되는가? */
+  grid-column: first-line / fifth-line;
+}
+
+.content {
+  background-color: #3498db;
+  /* grid-column: 1 / 4;
+    grid-row: 2 / 4; */
+  /* grid-column: 1 / -2; */
+  grid-column: first-line / fourth-line;
+  /* grid-row: 2/-2; */
+  grid-row: sexy-line 1 / sexy-line 3;
+}
+
+.nav {
+  background-color: #8e44ad;
+  /* grid-row: 2 / 4; */
+  grid-row: 2 / span 2;
+}
+
+.footer {
+  background-color: #f39c12;
+  /* grid-column: 1 / 5; */
+  grid-column: 1 / fifth-line;
+}
