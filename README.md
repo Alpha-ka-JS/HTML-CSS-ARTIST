@@ -31,6 +31,7 @@
 - Jeong Sungwon([sungwon2054](https://github.com/sungwon2054))
 - Heo Yujin([hobbang2](https://github.com/hobbang2))
 - Lim Hyeonjin([hamjins](https://github.com/hamjins))
+- Ahn Daehyun([daehyun1023](https://github.com/daehyun1023))
 
 # <a name="study-schedule"></a>Study Schedule
 
@@ -51,7 +52,7 @@
 - [sungwon2054](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/jeongsungwon/kokoa/clone-project)
 - [hobbang2](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/heoyujin/kokoa/clone-project)
 - [hamjins](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/hamjins/kokoa/clone-project)
-
+- [daehyun1023](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/AhnDH/kokoa/clone-project)
 
 # <a name="css-layout-result"></a>CSS Layout Master Results
 
