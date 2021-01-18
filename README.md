@@ -52,7 +52,7 @@
 - [sungwon2054](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/jeongsungwon/kokoa/clone-project)
 - [hobbang2](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/heoyujin/kokoa/clone-project)
 - [hamjins](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/hamjins/kokoa/clone-project)
-- [daehyun1023](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/AhnDH/kokoa/clone-project)
+- [daehyun1023](https://alpha-ka-js.github.io/HTML-CSS-ARTIST/ahndaehyun/kokoa/clone-project)
 
 # <a name="css-layout-result"></a>CSS Layout Master Results
 
